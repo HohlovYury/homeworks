@@ -1,0 +1,19 @@
+﻿.gray{
+	background-color:#EEE;
+	padding:20px;
+}
+.center{text-align:center;}
+.resault_full{
+background-color:#FFF;
+margin:10px;
+padding:10px;
+
+	
+}
+p{padding:0;margin:0;}
+h4.name{border-bottom:2px solid #eee;}
+
+.seance, .manager{
+	text-align:right;
+}
+.alert{color:RED;}
