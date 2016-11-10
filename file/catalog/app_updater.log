@@ -1,0 +1,30 @@
+﻿
+------------------------------------- Start Module: app_updater 09/14/16 -------------------------------------
+[18:06:10.06][074c][ERR][dvsupdatehelper] Failed to get  WorkPath from the Registry
+[18:06:10.07][074c][ERR][dvsupdatehelper] CRegApi::regRead(int64_t) , Error RegOpenKeyExA : path='SOFTWARE\DVDVideoSoft\DVSService' , val ='LastUploadTime', result = 19
+[18:06:10.07][074c][ERR][dvsupdatehelper] Error getTime , name = LastUploadTime
+[18:06:10.07][074c][ERR][dvsupdatehelper] CRegApi::regRead(int64_t) , Error RegOpenKeyExA : path='SOFTWARE\DVDVideoSoft\DVSService' , val ='LastCollectLogTime', result = 19
+[18:06:10.07][074c][ERR][dvsupdatehelper] Error getTime , name = LastCollectLogTime
+[18:06:10.07][074c][ERR][dvsupdatehelper] CRegApi::regRead(int64_t) , Error RegOpenKeyExA : path='SOFTWARE\DVDVideoSoft\DVSService' , val ='LastDownloadCfgTime', result = 19
+[18:06:10.09][074c][ERR][dvsupdatehelper] Error getTime , name = LastDownloadCfgTime
+[18:06:10.10][074c][INF][dvsupdatehelper] isNeedDownloadCfg = 1
+[18:06:10.23][074c][INF][dlmgr] --> dlmgr_download | http://tools.dvdvideosoft.com/updates/versions.gz
+[18:06:10.23][074c][INF][CEngineDownloader] --> start
+[18:06:10.23][074c][INF][CEngineDownloader] ==> wait
+[18:06:10.23][074c][INF][DownloadThread] --> wait
+[18:06:10.23][2aa8][INF][DownloadThread] ==> workerThread
+[18:06:10.56][2aa8][INF][DownloadThread] id=20 | nAttemptCount = 1
+[18:06:10.64][2aa8][INF][DownloadThread] id=20 download thread finished
+[18:06:10.64][074c][INF][CEngineDownloader] <== wait
+[18:06:10.64][074c][INF][CEngineDownloader] ==> stop
+[18:06:10.64][074c][INF][CEngineDownloader] --> ~CEngineDownloader
+[18:06:10.64][074c][INF][CEngineDownloader] ==> close
+[18:06:10.64][074c][INF][CEngineDownloader] ==> wait
+[18:06:10.64][074c][INF][DownloadThread] --> wait
+[18:06:10.64][074c][INF][CEngineDownloader] <== wait
+[18:06:10.64][074c][INF][DownloadThread] --> ~DownloadThread
+[18:06:10.64][074c][INF][CEngineDownloader] <== close
+[18:06:10.64][074c][INF][CEngineDownloader] <== ~CEngineDownloader
+[18:06:10.64][074c][ERR][dvsupdatehelper] Unable download configuration , use old configuration
+[18:06:10.70][074c][INF][dvsupdatehelper] XML ["C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\DVDVideoSoft\Stat\cfg\versions.xml"] parsed without errors
+[18:06:10.70][074c][INF][dvsupdatehelper] Correct read old configuration
